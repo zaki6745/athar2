@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>المكتبة الإسلامية — أثَر</title>
+<meta name="description" content="أثَر — مساحة عربية للقرآن الكريم والأذكار والأحاديث وكتب العلم النافع.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="library.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطّي إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="أثَر - الصفحة الرئيسية">
+      <span class="brand-mark" aria-hidden="true">أ</span>
+      <span class="brand-text"><strong>أثَر</strong><small>ATHAR</small></span>
+    </a>
+    <button class="menu-btn" data-menu aria-expanded="false" aria-controls="site-nav" aria-label="فتح القائمة">☰</button>
+    <nav id="site-nav" class="nav-links" data-nav-links aria-label="التنقل الرئيسي">
+      <a href="index.html">الرئيسية</a>
+      <a href="index.html#quran">القرآن الكريم</a>
+      <a href="library.html">المكتبة</a>
+      <a href="adhkar.html">الأذكار</a>
+      <a href="hadith.html">الأحاديث</a>
+      <a href="about.html">عن أثَر</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero"><div class="container"><div class="eyebrow">ATHAR · LIBRARY</div><h1>المكتبة الإسلامية</h1><p>فهرس منظم لكتب يمكن إضافتها إلى المشروع لاحقًا. لا يتم عرض أي كتاب على أنه متاح قبل إضافة ملفه الحقيقي.</p></div></section>
+<section class="section">
+<div class="container">
+  <div class="toolbar"><input id="book-search" class="search" type="search" placeholder="ابحث باسم الكتاب أو المؤلف..." aria-label="البحث في الكتب"></div>
+  <div id="category-filters" class="filters"></div>
+  <div id="book-grid" class="grid" style="margin-top:24px"></div>
+  <p id="library-empty" class="notice" hidden>لا توجد نتائج مطابقة.</p>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><div class="footer-brand">أثَر</div><p>مساحة هادئة للقرآن والأذكار والأحاديث وكتب العلم النافع.</p></div>
+    <div><h3>التصفح</h3><a href="index.html">الرئيسية</a><a href="library.html">المكتبة</a><a href="adhkar.html">الأذكار</a><a href="hadith.html">الأحاديث</a></div>
+    <div><h3>عن المشروع</h3><a href="about.html">عن أثَر</a><p>يُقدَّم المحتوى الديني بعناية، مع تجنب نسبة ما لم يتم التحقق منه.</p></div>
+  </div>
+  <div class="container copyright">© <span data-year></span> أثَر — جميع الحقوق محفوظة.</div>
+</footer>
+
+<script src="library.js"></script>
+</body></html>

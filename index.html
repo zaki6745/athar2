@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الرئيسية — أثَر</title>
+<meta name="description" content="أثَر — مساحة عربية للقرآن الكريم والأذكار والأحاديث وكتب العلم النافع.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<a class="skip" href="#main">تخطّي إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="أثَر - الصفحة الرئيسية">
+      <span class="brand-mark" aria-hidden="true">أ</span>
+      <span class="brand-text"><strong>أثَر</strong><small>ATHAR</small></span>
+    </a>
+    <button class="menu-btn" data-menu aria-expanded="false" aria-controls="site-nav" aria-label="فتح القائمة">☰</button>
+    <nav id="site-nav" class="nav-links" data-nav-links aria-label="التنقل الرئيسي">
+      <a href="index.html">الرئيسية</a>
+      <a href="index.html#quran">القرآن الكريم</a>
+      <!-- <a href="library.html">المكتبة</a>-->
+      <!--<a href="adkar.html">الأذكار</a>-->
+      <a href="hadith.html">الأحاديث</a>
+      <a href="about.html">عن أثَر</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-art" aria-label="زخرفة إسلامية وعبارة قرآنية">
+      <div class="ornament-diamond"></div><div class="ornament-frame"></div>
+      <span class="hero-star one">✦</span><span class="hero-star two">●</span><span class="hero-star three">✧</span>
+      <div class="verse-card"><div class="verse-mark">۞</div><blockquote>وَقُلْ رَبِّ زِدْنِي عِلْمًا</blockquote><small>سورة طه · ١١٤</small></div>
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow">رحلة معرفة وسكينة</div>
+      <h1>اترك <span class="gold">أثَرًا</span><br>يبقى في القلب.</h1>
+      <p>مساحة تجمع نور القرآن، وهدي النبي ﷺ، ونفحات الذكر؛ لتكون أقرب إلى المعرفة، وأهدأ روحًا، وأعظم أثرًا.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#quran">تصفّح القرآن الكريم <span aria-hidden="true">←</span></a>
+        <a class="btn btn-light" href="#discover">اكتشف المنصّة <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal" id="quran">
+  <div class="container">
+    <div class="section-head">
+      <div><h2>القرآن الكريم</h2><div class="gold-line"></div><p>اقرأ كتاب الله داخل الصفحة دون الحاجة إلى الانتقال منها.</p></div>
+      <a class="btn btn-outline" href="reader.html?book=quran">فتح القارئ</a>
+    </div>
+    <div class="card pdf-card">
+      <div id="quran-viewer"></div>
+    </div>
+  </div>
+</section>
+<!--
+<section class="section reveal" id="discover">
+  <div class="container">
+    <div class="section-head"><div><h2>المكتبة الإسلامية</h2><div class="gold-line"></div><p>أقسام مقترحة لتنظيم كتب العلم النافع.</p></div><a class="btn btn-outline" href="library.html">تصفّح المكتبة</a></div>
+    <div class="grid">
+      <article class="card category-card"><div class="category-icon">س</div><h3>السيرة النبوية</h3><p>كتب ومراجع حول السيرة.</p></article>
+      <article class="card category-card"><div class="category-icon">ت</div><h3>التفسير</h3><p>قسم مخصص لكتب التفسير المتاحة.</p></article>
+      <article class="card category-card"><div class="category-icon">ع</div><h3>العقيدة</h3><p>كتب في مسائل العقيدة.</p></article>
+      <article class="card category-card"><div class="category-icon">ف</div><h3>الفقه</h3><p>مراجع فقهية يمكن إضافتها لاحقًا.</p></article>
+      <article class="card category-card"><div class="category-icon">أ</div><h3>الأخلاق والآداب</h3><p>كتب في تهذيب النفس والآداب.</p></article>
+    </div>
+  </div>
+</section>-->
+
+<section class="section reveal">
+  <div class="container">
+    <div class="section-head"><div><h2>مختارات اليوم</h2><div class="gold-line"></div><p>محتوى مختار من بيانات قابلة للتعديل في index.js.</p></div></div>
+    <div class="feature-grid">
+      <article class="card feature-card">
+        <h3>ذكر مختار</h3>
+        <div id="featured-dhikr" class="quote">جارٍ تحميل الذكر...</div>
+        <div id="featured-dhikr-meta" class="meta"></div>
+        <!--<div class="actions" style="justify-content:flex-start"><a class="btn btn-outline" href="adkar.html">كل الأذكار</a></div>-->
+      </article>
+      <article class="card feature-card">
+        <h3>حديث مختار</h3>
+        <div id="featured-hadith" class="quote">جارٍ تحميل الحديث...</div>
+        <div id="featured-hadith-meta" class="meta"></div>
+        <div class="actions" style="justify-content:flex-start"><a class="btn btn-outline" href="hadith.html">كل الأحاديث</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div><div class="footer-brand">أثَر</div><p>مساحة هادئة للقرآن والأذكار والأحاديث وكتب العلم النافع.</p></div>
+    <div><h3>التصفح</h3><a href="index.html">الرئيسية</a><!--<a href="library.html">المكتبة</a><a href="adhkar.html">الأذكار</a>--><a href="hadith.html">الأحاديث</a></div>
+    <div><h3>عن المشروع</h3><a href="about.html">عن أثَر</a><p>يُقدَّم المحتوى الديني بعناية، مع تجنب نسبة ما لم يتم التحقق منه.</p></div>
+  </div>
+  <div class="container copyright">© <span data-year></span> أثَر — جميع الحقوق محفوظة.</div>
+</footer>
+
+<script src="index.js"></script>
+</body></html>
